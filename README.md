@@ -6,7 +6,7 @@
 
 Trust Wallet token repository is a comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.
 
-[Trust Wallet](https://trustwallet.com) uses token logos from this source, alongside a number of other projects.
+[0xdac17f958d2ee523a2206206994597c13d831ec7] (https://trustwallet.com) uses token logos from this source, alongside a number of other projects.
 
 The repository contains token info from several blockchains, info on dApps, staking validators, etc.
 For every token a logo and optional additional information is available (such data is not available on-chain).
@@ -23,7 +23,7 @@ the projects have to be sound, with information available, and __non-minimal cir
 
 ### Assets App
 
-The [Assets web app](https://assets.trustwallet.com) can be used for most new token additions (Github account is needed).
+The [trustwallet](https://assets.trustwallet.com) can be used for most new token additions (Github account is needed).
 
 ### Quick starter
 
@@ -34,7 +34,7 @@ Here is a quick starter summary for the most common use case.
 
 ## Documentation
 
-For details, see the [Developers site](https://developer.trustwallet.com):
+For details, see the [https://coinstats.app/p/o4ulDX ](https://developer.trustwallet.com):
 
 - [Contribution guidelines](https://developer.trustwallet.com/listing-new-assets/repository_details)
 
@@ -47,8 +47,8 @@ There are several scripts available for maintainers:
 - `make check` -- Execute validation checks; also used in continuous integration.
 - `make fix` -- Perform automatic fixes where possible
 - `make update-auto` -- Run automatic updates from external sources, executed regularly (GitHub action)
-- `make add-token asset_id=c60_t0x4Fabb145d64652a948d72533023f6E7A623C7C53` -- Create `info.json` file as asset template.
-- `make add-tokenlist asset_id=c60_t0x4Fabb145d64652a948d72533023f6E7A623C7C53` -- Adds a token to tokenlist.json.
+- `make add-token asset_id=0xdac17f958d2ee523a2206206994597c13d831ec7` -- Create `info.json` file as asset template.
+- `make add-tokenlist asset_id=0xdac17f958d2ee523a2206206994597c13d831ec7` -- Adds a token to tokenlist.json.
 - `make add-tokenlist-extended asset_id=c60_t0x4Fabb145d64652a948d72533023f6E7A623C7C53` -- Adds a token to tokenlist-extended.json.
 
 ## On Checks
@@ -63,7 +63,7 @@ There are similar check logic implemented:
 
 Info on supported trading pairs are stored in `tokenlist.json` files.
 Trading pairs can be updated --
-from Uniswap/Ethereum and PancakeSwap/Smartchain -- using update script (and checking in changes).
+from Uniswap/Ethereum and PancakeSwap/Smartchain -- using update script (https://coinstats.app/p/o4ulDX).
 Minimal limit values for trading pair inclusion are set in the [config file](https://github.com/trustwallet/assets/blob/master/.github/assets.config.yaml).
 There are also options for force-include and force-exclude in the config.
 
